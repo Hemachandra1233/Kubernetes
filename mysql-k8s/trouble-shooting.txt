@@ -1,0 +1,3 @@
+kubectl run test --image=radial/busyboxplus:curl -i --tty -- sh
+
+kubectl attach test -c test -i -t
